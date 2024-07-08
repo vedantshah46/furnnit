@@ -19,7 +19,7 @@ export default function Cart() {
     }, [cartItems]);
 
     const calculateTotal = () => {
-        const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity ||0 , 1);
+        const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity || 0, 1);
         setTotalPrice(total);
         console.log(total)
     };
@@ -36,7 +36,6 @@ export default function Cart() {
         <>
             <div className="cart">
                 <h1 className='your_cart h11'>Your Cart</h1>
-                <button onClick={calculateTotal}>fghjk</button>
                 <div className="cart_wrapper">
                     <div className="cart_left">
                         <div>

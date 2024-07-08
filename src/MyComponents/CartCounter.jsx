@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 
 export default function CartCounter(props) {
-    const [counter, setCounter] = useState(1);
+    let [counter, setCounter] = useState(1);
 
     useEffect(() => {
         props.onQuantityChange(counter);
@@ -27,7 +27,6 @@ export default function CartCounter(props) {
             <p>{counter}</p>
             <i onClick={addValue} class="plus fa-solid fa-plus"></i>
             <p class='price'>${props.price * counter}</p>
-            <button>Total</button>
         </div>
     )
 }

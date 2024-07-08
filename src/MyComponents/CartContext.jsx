@@ -16,7 +16,7 @@ export const CartProvider = ({ children }) => {
     // Function to remove items from the cart
     const removeFromCart = (product) => {
         setCartItems((prevItems) => prevItems.filter(item => item !== product));
-      };
+      }; 
 
     return (
         // Provides the CartContext to its children components. It sets the value prop to an object containing cartItems and addToCart. This makes these values accessible to any component that subscribes to this context.
