@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 export default function Cart() {
     const { cartItems, removeFromCart } = useContext(CartContext);
 
-    const [totalPrice, setTotalPrice] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(1);
 
     useEffect(() => {
         calculateTotal();
