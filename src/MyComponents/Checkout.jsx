@@ -6,9 +6,15 @@ import checkout_gpay from './Images/checkout_gpay.svg';
 import checkout_paypal from './Images/checkout_paypal.svg';
 import Subscribe from './Subscribe';
 import Footer from './Footer';
-
+import { CartContext } from './CartContext';
+import { useContext } from 'react';
 
 export default function Checkout() {
+
+    const { cartItems } = useContext(CartContext);
+
+    const totalPrice = cartItems.reduce((sum, item) => sum + (item.price * (item.quantity || 1)), 0);
+
     return (
         <>
             <div className="checkout">
@@ -80,7 +86,7 @@ export default function Checkout() {
                         <div className="checkout_total">
                             <h5 className='py-3 px-2 fw-bold'>Your Order</h5>
 
-                            <div className="container">
+                            {/* <div className="container">
                                 <div className="row g-3">
                                     <div className="col-9">
                                         Complete set of sofa... 1x
@@ -120,16 +126,61 @@ export default function Checkout() {
                                         Total
                                     </div>
                                     <div className="col-3">
-                                        $ 69.30
+                                        56
                                     </div>
 
                                     <button className='place_order btn btn-dark' type="button">Place Order</button>
                                 </div>
-                            </div>
+                            </div> */}
+
+                            <div className="container">
+                                <div className="row g-3">
+                                    {cartItems.map((item, index) => (
+                                        <React.Fragment key={index}>
+                                            <div className="col-9">
+                                                {item.name} {item.quantity && `x ${item.quantity}`}
+                                            </div>
+                                            <div className="col-3">
+                                                ${item.price.toFixed(2)}
+                                            </div>
+                                        </React.Fragment>
+                                    ))}
+
+                                    <div className="col-12">
+                                        ------------------------------------------------
+                                    </div>
+
+                                    <div className="col-9">
+                                        Subtotal
+                                    </div>
+                                    <div className="col-3">
+                                        ${totalPrice.toFixed(2)}
+                                    </div>
+                                    <div className="col-9">
+                                        Discount (30%)
+                                    </div>
+                                    <div className="col-3">
+                                        -${(totalPrice * 0.3).toFixed(2)}
+                                    </div>
+
+                                    <div className="col-12">
+                                        ------------------------------------------------
+                                    </div>
+
+                                    <div className="col-9">
+                                        Total
+                                    </div>
+                                    <div className="col-3">
+                                        ${totalPrice.toFixed(2)}
+                                    </div>
+
+                                    <button className='place_order btn btn-dark' type="button">Place Order</button>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div >
 
             <Subscribe />
 
