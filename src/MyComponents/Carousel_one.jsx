@@ -26,8 +26,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c1} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Tabl</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -38,8 +46,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c2} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -50,8 +66,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c3} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -62,8 +86,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c4} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -76,8 +108,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c1} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -88,8 +128,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c2} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -100,8 +148,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c3} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -112,9 +168,17 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c4} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
-                                            <span class="pos_absolute badge bg-dark">Living Roo</span>
+                                            
+                                            <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
                                         </Card.Body>
@@ -131,8 +195,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c1} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Table</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -143,8 +215,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c2} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">Black Ring Chair</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -155,8 +235,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c3} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">Wooden Stool</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -167,8 +255,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r1_c4} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">Leather Stool</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -181,8 +277,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c1} class="pos_relative pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title">White Chair</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -193,8 +297,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c2} class="pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title" >Black Chair</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -205,8 +317,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c3} class="pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title" >Pink Chair</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>
@@ -217,8 +337,16 @@ export default function Carousel_one() {
                                     <Card>
                                         <Card.Body>
                                             <img src={r2_c4} class="pos_relative d-block w-100" alt="..." />
+                                            <div className="row">
+                                                <div className="col-9">
+                                                    <h3>Black Chair </h3>
+                                                </div>
+                                                <div className="carousel_price_padding col-3">
+                                                    <h5>$24</h5>
+                                                </div>
+                                            </div>
                                             <span class="pos_absolute_top badge bg-danger">New</span>
-                                            <h3 class="carousel_title" >Green Chair</h3>
+                                            
                                             <span class="pos_absolute badge bg-dark">Living Room</span>
                                             <i class="pos_absolute_fevicon fa-brands fa-gratipay"></i>
                                             <i class="pos_absolute_fevicon_one fa-solid fa-cart-shopping"></i>

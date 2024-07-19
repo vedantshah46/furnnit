@@ -109,6 +109,12 @@
   color: red;
 }
 
+.carousel_price_padding h5 {
+  padding-top: 4px;
+  padding-left: 14px;
+  font-size: 1.4rem;
+}
+
 .one {
   display: flex;
 }
@@ -1035,16 +1041,16 @@
   cursor: pointer;
 }
 
-.minus{
+.minus {
   padding-top: 5px;
   cursor: pointer;
 }
 
-.item_padding{
+.item_padding {
   padding-top: 20px;
 }
 
-.price  {
+.price {
   padding-top: 18px;
   font-weight: 650;
   margin-left: 3rem;
@@ -1111,7 +1117,7 @@
   margin: 0 auto;
 }
 
-.shop_sec_two{
+.shop_sec_two {
   display: flex;
 }
 
@@ -1119,12 +1125,12 @@
   width: 30%;
 }
 
-.shop_sec_two_right{
+.shop_sec_two_right {
   width: 70%;
   padding-left: 2rem;
 }
 
-.shop_sec_two_right_rowone{
+.shop_sec_two_right_rowone {
   display: flex;
   justify-content: space-between;
 }
@@ -1153,50 +1159,50 @@
   font-weight: 600;
 }
 
-.search_btn{
+.search_btn {
   color: #FEE3CA;
   font-weight: 650;
 }
 
-.shopCards_css img{
+.shopCards_css img {
   height: 300px;
   width: 250px;
 }
 
-.col_padding{
-padding-left: 0px;
+.col_padding {
+  padding-left: 0px;
 }
 
-.col_padding_one{
+.col_padding_one {
   padding-left: 22px;
 }
 
-.pos_relative{
+.pos_relative {
   position: relative;
 }
 
-.shop_pos_absolute{
+.shop_pos_absolute {
   position: absolute;
   top: 86%;
   left: 4%;
 }
 
-.grid_class{
+.grid_class {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
 }
 
-.badge{
+.badge {
   border-radius: 0px;
   padding: 7px 7px 9px 7px;
 }
 
-.ved{
+.ved {
   background-color: red;
 }
 
-.addToCartBtn{
+.addToCartBtn {
   padding: 0.5rem 4.4rem;
   color: #FEE3CA;
   margin-top: 5px;
